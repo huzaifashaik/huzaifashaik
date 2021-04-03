@@ -1,0 +1,92 @@
+
+.profile-img {
+	width: 120px;
+	height: 120px;
+  border-radius: 100%;
+}
+.profile-background1 {
+	padding: 30% 2%;
+	background-color:#5e5b54 ;
+}
+.profile-background2{
+	text-align: center;
+	background-color: #a8aaa1;
+	border-radius: 75px 37px;
+	padding-top: 15%;
+	position: relative;
+	left: 50px;
+}
+
+.profile-pic{
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+.profile-img {
+	margin-bottom: 20px;
+}
+.name {
+ 		font-family: 'Merriweather', serif;
+		font-weight: 900;
+}
+
+.web-dev {
+	padding-bottom: 50px;
+}
+.icons {
+	background-color: #fff;
+	width: 70%;
+	height:40px;
+	margin: auto;
+}
+
+.profile-description {
+	margin: 30% 30% 0 30%;
+}
+.hello {
+		font-family: 'Merriweather', serif;
+		font-size: 3rem;
+}
+
+.profile-description2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	line-height: 2rem;
+}
+.buttons {
+	padding: 16px 16px;
+	margin-bottom: 5%;
+}
+
+
+.resume-btn{
+	margin-right: 10%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.project-btn{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
+
+
+@media (max-width:993px)  {
+	.profile-background2 {
+		position: static;
+		padding-bottom: 5%;
+		border-radius: 37px;
+		margin: 0 5%;
+	}
+	.icons {
+		width: 100%;
+	}
+	.profile-description {
+   	margin:10% 20%;
+	}
+	.profile-background1 {
+			padding: 0;
+		background-color: #fff;
+	}
+}

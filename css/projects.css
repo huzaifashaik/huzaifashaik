@@ -1,0 +1,47 @@
+.projects-section{
+		background-color:  #a8aaa1;
+		padding: 5% 0;
+}
+.box {
+		background-color:#fff;
+		padding: 5% 0;
+		margin: 5% 10%;
+		border-radius: 12px;
+		font-family: 'Montserrat', sans-serif;
+}
+.black-color {
+	background-color: black;
+	width: 16px;
+	height: 16px;
+	margin-left: 10%;
+}
+.black-box {
+	display: inline-block;
+}
+.h3-color2{
+ color: #0050ff;
+ font-weight: bold;
+ padding-left: 0;
+}
+.paragraph-padding {
+	padding-left: 50px;
+	margin: 25% 5% 0 5%;
+}
+.mywebsite-img {
+	width: 90%;
+	margin-top: 10%;
+}
+
+@media (max-width:993px) {
+	.h3-color2{
+		padding: 0;
+	}
+	.paragraph-padding {
+	 padding: 0 10%;
+	 margin: 0;
+	}
+	.mywebsite-img {
+		width: 90%;
+		margin: 10% 5%;
+	}
+}

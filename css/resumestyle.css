@@ -1,0 +1,65 @@
+.main-div {
+	background-color:  #a8aaa1;
+	padding-bottom: 10px;
+}
+.resume {
+	text-align: center;
+	padding: 5% 0;
+}
+.resume-heading{
+	display: inline-block;
+}
+.blue-color {
+	background-color: #0050ff;
+	width: 16px;
+	height: 16px;
+}
+.download-cv{
+	text-align: left;
+}
+.h3-color{
+	color: #fff;
+	padding-left: 10%;
+}
+.experience-h3{
+	padding-left: 20%;
+}
+.h3-color2{
+	color: #0050ff;
+	font-weight: bold;
+	padding-left: 5%;
+}
+.download-button {
+	text-align: right;
+	padding-right: 12%;
+}
+.box {
+		background-color:#fff;
+		padding: 5% 0;
+		margin: 5% 10%;
+		border-radius: 12px;
+		font-family: 'Montserrat', sans-serif;
+}
+.paragraph-padding {
+	padding-left: 50px;
+}
+.icons {
+	background-color: #fff;
+	width: 70%;
+	height:40px;
+	margin: auto;
+}
+
+
+
+
+
+
+ @media (max-width:993px) {
+	 .experience-h3{
+		 padding-left: 10%;
+	 }
+ 	.button-padding {
+ 		 padding-left: 18%;
+ 	}
+}
